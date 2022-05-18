@@ -13,3 +13,10 @@ MainWin::~MainWin()
     delete ui;
 }
 
+void MainWin::initUI()
+{
+    fLabCurFile = new QLabel;
+    fLabCurFile->setMinimumWidth(150); //set the mim widet to 150
+
+}
+
