@@ -6,6 +6,7 @@
 #include <QMainWindow>
 #include <QWidget>
 #include "qspinbox.h"
+#include "qfontcombobox.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWin; }
 QT_END_NAMESPACE
@@ -23,6 +24,9 @@ private:
     QLabel *fLabCurFile;    //显示当前文件的Label
     QProgressBar *progressBar1; //设置progressBar
     QSpinBox *spinbox1; //set a spinbox to change font dotsize.
+    QSpinBox *spinbox2; //
+    QFontComboBox *fontbox; //set a combo box.
+    void initUI();  //Ui initialization.
 
 };
 #endif // MAINWIN_H
